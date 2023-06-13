@@ -1,0 +1,399 @@
+<mjml>
+
+  <mj-body background-color="#cccccc">
+    <mj-wrapper padding-top="0px" padding-bottom="40px">
+
+      // top header
+      <mj-section padding="5px">
+        <mj-column>
+          <mj-text align="right" padding-right="5px">
+            <a href="#" style="text-decoration: underline; color: gray;">View in browser</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // middle header/logo
+      <mj-section padding="10px" background-color="#ffffff">
+        // logo
+        <mj-column width="220px">
+          <mj-image src="img/logo.png" alt="a view of the lake" padding="0px" />
+        </mj-column>
+
+        // middle header
+          <mj-column padding-top="20px" width="350px">
+            <mj-table padding="0px">
+              <tr>
+                <td style="padding-right: 10px; padding-left: 10px;">+1 (800) 000-0000</td>
+                <td style="padding-right: 10px;">your@email.com</td>
+                <td>Online Chat</td>
+              </tr>
+            </mj-table> 
+          </mj-column>
+      </mj-section>
+
+      // navbar
+      <mj-section padding="0px" background-color="#000000">
+        <mj-column>
+          <mj-navbar hamburger="hamburger" ico-color="#ffffff">
+            <mj-navbar-link href="#" padding="10px" padding-right="20px" padding-left="20px" color="#ffffff">
+              Hotels
+            </mj-navbar-link>
+
+            <mj-navbar-link href="#" padding="10px" padding-right="20px" padding-left="20px" color="#ffffff">
+              Tours
+            </mj-navbar-link>
+
+            <mj-navbar-link href="#" padding="10px" padding-right="20px" padding-left="20px" color="#ffffff">
+              Experiences
+            </mj-navbar-link>
+
+            <mj-navbar-link href="#" padding="10px" padding-right="20px" padding-left="20px" color="#ffffff">
+              Services
+            </mj-navbar-link>
+          </mj-navbar>
+        </mj-column>
+      </mj-section>
+
+      // main-image
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-image src="img/main-image.png" alt="a view of the lake" padding="0px" />
+        </mj-column>
+      </mj-section>
+
+      // popular destinations/heading
+      <mj-section background-color="#ffffff" padding-right="25px" padding-left="25px" padding-bottom="0px">
+        <mj-column border-bottom="3px solid #FDC56D" padding-bottom="10px">
+          <mj-text font-size="24px" letter-spacing="3px" align="left" padding="0px">
+            <span style="color: #FDC56D;">POPULAR</span> DESTINATIONS
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // popular destinations/3 column/images
+      <mj-section padding-top="10px" padding-bottom="0px" background-color="#ffffff">
+        <mj-column>
+          <mj-image src="img/paris.png" alt="paris hotel" fluid-on-mobile="true"/>
+        </mj-column>
+
+        <mj-column>
+          <mj-image src="img/sydney.png" alt="paris hotel" fluid-on-mobile="true"/>
+        </mj-column>
+
+        <mj-column>
+          <mj-image src="img/male.png" alt="paris hotel" fluid-on-mobile="true"/>
+        </mj-column>
+      </mj-section>
+
+      // popular destinations/3 column/images
+      <mj-section padding-top="0px" padding-bottom="0px" background-color="#ffffff">
+        <mj-column>
+          <mj-image src="img/paris-1.png" alt="paris hotel" fluid-on-mobile="true"/>
+        </mj-column>
+
+        <mj-column>
+          <mj-image src="img/vienna.png" alt="paris hotel" fluid-on-mobile="true"/>
+        </mj-column>
+
+        <mj-column>
+          <mj-image src="img/male-1.png" alt="paris hotel" fluid-on-mobile="true"/>
+        </mj-column>
+      </mj-section>
+
+      // recommended hotels/heading
+      <mj-section background-color="#ffffff" padding-right="25px" padding-left="25px" padding-bottom="0px">
+        <mj-column border-bottom="3px solid #FDC56D" padding-bottom="10px">
+          <mj-text font-size="24px" letter-spacing="3px" align="right" padding="0px">
+            <span style="color: #FDC56D;">RECOMMENDED</span> HOTELS
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // recommended hotels/text
+      <mj-section background-color="#ffffff" padding-right="25px" padding-bottom="0px" padding-left="25px" padding-top="10px">
+        <mj-column>
+          <mj-text line-height="20px" padding="0px">
+            If you're looking for a home away from home with a touch of luxury, check out some of the top-rated hotels in your destination. With a variety of amenities and personalized service, you're guaranteed to have an unforgettable vacation experience.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // recommended hotels/2 column/grand marina and ewy willa
+      <mj-section background-color="#ffffff" padding-bottom="0px">
+        // grand marina
+        <mj-column>
+          <mj-image src="img/image-8.jpg" alt="grand marina" fluid-on-mobile="true"/>
+          <mj-text font-weight="bold" font-size="16px" align="center">
+            GRAND MARINA
+          </mj-text>
+          <mj-text align="center">
+            <span style="color: #FDC56D; font-size: 26px">$55</span>/night
+          </mj-text>
+          <mj-text line-height="20px" align="center">
+            Booking online in advance is guaranteed not to lose the most popular tours.
+          </mj-text>
+          <mj-image src="img/3star.png" alt="3 star rating" width="80px" />
+          <mj-button href="#" font-size="16px" background-color="#000000" width="150px" height="30px">
+            Book Now
+          </mj-button>
+        </mj-column>
+
+        // ewy willa
+        <mj-column>
+          <mj-text font-weight="bold" font-size="16px" align="center">
+            EWY WILLA
+          </mj-text>
+          <mj-text align="center">
+            <span style="color: #FDC56D; font-size: 26px">$90</span>/night
+          </mj-text>
+          <mj-text line-height="20px" align="center">
+            Booking online in advance is guaranteed not to lose the most popular tours.
+          </mj-text>
+          <mj-image src="img/4star.png" alt="3 star rating" width="80px" />
+          <mj-button href="#" font-size="16px" background-color="#000000" width="150px" height="30px">
+            Book Now
+          </mj-button>
+          <mj-image src="img/image-7.jpg" alt="grand marina" fluid-on-mobile="true" />
+        </mj-column>
+      </mj-section>
+
+      // recommended hotels/2 column/vellunlevi and willa zakopane
+      <mj-section background-color="#ffffff" padding-bottom="0px">
+        // vellunlevi
+        <mj-column>
+          <mj-image src="img/image-2.jpg" alt="vellunlevi hotel" fluid-on-mobile="true" />
+          <mj-text font-weight="bold" font-size="16px">
+            VELLUNLEVI
+          </mj-text>
+                    <mj-text align="left">
+            <span style="color: #FDC56D; font-size: 26px">$155</span>/night
+          </mj-text>
+          <mj-image src="img/5star.png" align="left" alt="3 star rating" width="80px" />
+          <mj-text line-height="20px">
+            Booking online in advance is guaranteed not to lose the most popular tours. Booking online in advance is guaranteed not to lose the most popular tours
+          </mj-text>
+          <mj-text>
+            <img style="width: 25px;" src="img/icon-1.jpg" />&nbsp;4
+            <img style="width: 25px; padding-right: 20px; padding-left: 20px;" src="img/icon-2.jpg" />
+            <img style="width: 25px; padding-right: 20px;" src="img/icon-3.jpg" />
+            <img style="width: 25px;" src="img/icon-4.jpg" />
+          </mj-text>
+          <mj-button href="#" font-size="16px" align="left" background-color="#000000" width="150px" height="30px">
+            Book Now
+          </mj-button>
+        </mj-column>
+
+        // willa zakopane
+        <mj-column>
+          <mj-image src="img/image-6.jpg" alt="willa zakopane hotel" fluid-on-mobile="true"/>
+          <mj-text font-weight="bold" font-size="16px">
+            WILLA ZAKOPANE
+          </mj-text>
+                    <mj-text align="left">
+            <span style="color: #FDC56D; font-size: 26px">$84</span>/night
+          </mj-text>
+          <mj-image src="img/5star.png" align="left" alt="3 star rating" width="80px" />
+          <mj-text line-height="20px">
+            Booking online in advance is guaranteed not to lose the most popular tours. Booking online in advance is guaranteed not to lose the most popular tours
+          </mj-text>
+          <mj-text>
+            <img style="width: 25px;" src="img/icon-1.jpg" />&nbsp;2
+            <img style="width: 25px; padding-right: 20px; padding-left: 20px;" src="img/icon-2.jpg" />
+            <img style="width: 25px; padding-right: 20px;" src="img/icon-3.jpg" />
+            <img style="width: 25px;" src="img/icon-4.jpg" />
+          </mj-text>
+          <mj-button href="#" font-size="16px" align="left" background-color="#000000" width="150px" height="30px">
+            Book Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      // get inspired/heading
+      <mj-section background-color="#ffffff" padding-right="25px" padding-left="25px" padding-bottom="0px">
+        <mj-column border-bottom="3px solid #FDC56D" padding-bottom="10px">
+          <mj-text font-size="24px" letter-spacing="3px" align="left" padding="0px">
+            <span style="color: #FDC56D;">GET</span> INSPIRED
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // video-image
+      <mj-section padding="0px" background-color="#ffffff">
+        <mj-column> >
+          <mj-image href="#" src="img/video-image.png" alt="a view of the lake" />
+        </mj-column>
+      </mj-section>
+
+      // our blog/heading
+      <mj-section background-color="#ffffff" padding-right="25px" padding-left="25px" padding-bottom="0px">
+        <mj-column border-bottom="3px solid #FDC56D" padding-bottom="10px">
+          <mj-text font-size="24px" letter-spacing="3px" align="right" padding="0px">
+            <span style="color: #FDC56D;">OUR</span> BLOG
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // our blog/2 column/grand marina
+      <mj-section background-color="#ffffff" padding-bottom="0px">
+        // grand marina
+        <mj-column>
+          <mj-image src="img/image-5.jpg" alt="grand marina resort" fluid-on-mobile="true"/>
+        </mj-column>
+
+        // ewy willa
+        <mj-column padding-top="15px">
+          <mj-text font-weight="bold" font-size="16px" align="center" padding-bottom="0px">
+            EWY WILLA
+          </mj-text>
+          <mj-text font-size="16px" align="center" color="gray" padding-bottom="0px">
+            2 May, 2023
+          </mj-text>
+          <mj-text line-height="20px" font-size="16px" align="center" padding-bottom="0px">
+            Booking online in advance is guaranteed not to lose the most popular tours.
+          </mj-text>
+          <mj-text align="center">
+            <a href="#" style="color: #FDC56D;">Read More >></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // our blog/3 column/grand marina, ewy willa and schonbrunn
+      <mj-section background-color="#ffffff" padding-bottom="0px">
+        // grand marina
+        <mj-column>
+          <mj-image src="img/image-4.jpg" alt="grand marina statue" fluid-on-mobile="true"/>
+          <mj-text font-weight="bold" font-size="16px" align="center" padding-bottom="0px">
+            GRAND MARINA
+          </mj-text>
+          <mj-text align="center" color="gray" padding-bottom="0px">
+            11 April, 2023
+          </mj-text>
+          <mj-text line-height="20px" align="center" padding-bottom="0px">
+            Booking online in advance is guaranteed not to lose the most popular tours.
+          </mj-text>
+          <mj-text align="center">
+            <a href="#" style="color: #FDC56D;">Read More >></a>
+          </mj-text>
+        </mj-column>
+
+        // ewy willa
+        <mj-column>
+          <mj-image src="img/image-1.jpg" alt="ewy willa temple" fluid-on-mobile="true"/>
+          <mj-text font-weight="bold" font-size="16px" align="center" padding-bottom="0px">
+            EWY WILLA
+          </mj-text>
+          <mj-text align="center" color="gray" padding-bottom="0px">
+            2 May, 2023
+          </mj-text>
+          <mj-text line-height="20px" align="center" padding-bottom="0px">
+            Booking online in advance is guaranteed not to lose the most popular tours.
+          </mj-text>
+          <mj-text align="center">
+            <a href="#" style="color: #FDC56D;">Read More >></a>
+          </mj-text>
+        </mj-column>
+
+        // schonbrunn
+        <mj-column>
+          <mj-image src="img/image-3.jpg" alt="schonbrunn hotel" fluid-on-mobile="true"/>
+          <mj-text font-weight="bold" font-size="16px" align="center" padding-bottom="0px">
+            SCHONBRUNN
+          </mj-text>
+          <mj-text align="center" color="gray" padding-bottom="0px">
+            28 July, 2023
+          </mj-text>
+          <mj-text line-height="20px" align="center" padding-bottom="0px">
+            Booking online in advance is guaranteed not to lose the most popular tours.
+          </mj-text>
+          <mj-text align="center">
+            <a href="#" style="color: #FDC56D;">Read More >></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // our testimonials/heading
+      <mj-section background-color="#ffffff" padding-right="25px" padding-left="25px" padding-bottom="0px">
+        <mj-column border-bottom="3px solid #FDC56D" padding-bottom="10px">
+          <mj-text font-size="24px" letter-spacing="3px" align="left" padding="0px">
+            <span style="color: #FDC56D;">OUR</span> TESTIMONIALS
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // our testimonials/2 column
+      <mj-section background-color="#ffffff" padding-bottom="0px">
+        <mj-column padding-left="25px" padding-right="25px">
+          <mj-image src="img/left-quote.png" alt="left quotation" container-background-color="#FFF2CC" padding="0px" fluid-on-mobile="true"/>
+          <mj-text line-height="20px" container-background-color="#FFF2CC">
+            Booking online in advance is not to lose guaranteed not to lose the most popular tours. Booking online in advance is guaranteed not to lose the most popular tours is guaranteed not to lose the most popular tours.
+          </mj-text>
+          <mj-text color="#FDC56D" container-background-color="#FFF2CC">
+            Anna and Lisi Martin
+          </mj-text>
+          <mj-image src="img/right-quote.png" alt="right quotation" container-background-color="#FFF2CC" padding="0px" fluid-on-mobile="true"/>
+        </mj-column>
+
+        <mj-column>
+          <mj-image src="img/woman.jpg" alt="grand marina resort" fluid-on-mobile="true"/>
+        </mj-column>
+      </mj-section>
+
+      // our testimonials/2 column
+      <mj-section background-color="#ffffff" padding-bottom="20px">
+        <mj-column>
+          <mj-image src="img/woman-child.jpg" alt="grand marina resort" fluid-on-mobile="true"/>
+        </mj-column>
+
+        <mj-column padding-left="25px" padding-right="25px">
+          <mj-image src="img/left-quote.png" alt="left quotation" container-background-color="#FFF2CC" padding="0px" fluid-on-mobile="true"/>
+          <mj-text line-height="20px" container-background-color="#FFF2CC">
+            Booking online in advance is not to lose guaranteed not to lose the most popular tours. Booking online in advance is guaranteed not to lose the most popular tours is guaranteed not to lose the most popular tours.
+          </mj-text>
+          <mj-text color="#FDC56D" container-background-color="#FFF2CC">
+            Anna and Lisi Martin
+          </mj-text>
+          <mj-image src="img/right-quote.png" alt="right quotation" container-background-color="#FFF2CC" padding="0px" fluid-on-mobile="true"/>
+        </mj-column>
+      </mj-section>
+
+      // footer/2 column
+      <mj-section background-color="#EFEFEF" padding-bottom="0px">
+        <mj-column width="60%">
+          <mj-text padding-bottom="0px">
+            Copyright 2017 Smart Tour. All Rights Reserved
+          </mj-text>
+          <mj-text color="gray" line-height="20px">
+            You're receiving this email because you subscribed our site.
+          </mj-text>
+          <mj-text>
+            <a href="#" style="color: gray;">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="40%">
+          <mj-text>
+            <a href="#" style="color: gray;">Questions?</a>
+          </mj-text>
+          <mj-text>
+            <a href="#" style="color: gray;">Email us</a>
+          </mj-text>
+          <mj-text>
+            <a href="#" style="color: gray;">+1 (800) 000+0000</a>
+          </mj-text>
+          <mj-social align="left" >
+            <mj-social-element name="facebook" >
+            </mj-social-element>
+            <mj-social-element name="instagram" >
+            </mj-social-element>
+            <mj-social-element name="twitter" >
+            </mj-social-element>
+            <mj-social-element name="youtube" >
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+
+</mjml>
